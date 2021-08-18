@@ -12,8 +12,6 @@ let flag = 1;
 
 anchor.addEventListener('click', (event) => {
 
-  console.log(flag);
-
   event.preventDefault();
   app.classList.toggle('hide');
 
