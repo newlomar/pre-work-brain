@@ -6,3 +6,15 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.hide {
+  display: none;
+}
