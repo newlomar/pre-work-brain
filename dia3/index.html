@@ -7,12 +7,36 @@
     <title>Dia 3</title>
   </head>
   <body>
-    <form data-js='form'>
+    <form data-js="form">
       <label for="nome">Nome:</label>
       <input id="nome" type="text" data-js='input'>
       <br>
       <br>
     </form>
+    <hr>
+    <form data-js="form-carros">
+      <label for="imagem">Imagem do Carro:</label>
+      <input type="text" name="imagem" id="imagem">
+
+      <label for="marca">Marca:</label>
+      <input type="text" name="marca" id="marca">
+
+      <label for="placa">Placa:</label>
+      <input type="text" name="placa" id="placa">
+
+      <label for="cor">Cor:</label>
+      <input type="text" name="cor" id="cor">
+
+      <button type="submit">Cadastrar</button>
+    </form>
+    <table data-js="table">
+      <tr>
+        <th>Foto do carro</th>
+        <th>Marca</th>
+        <th>Placa</th>
+        <th>Cor</th>
+      </tr>
+    </table>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

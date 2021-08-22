@@ -7,12 +7,42 @@
   margin-top: 60px;
 }
 
+label {
+  display: block;
+}
+
+button {
+  margin-top: 10px;
+  display: block;
+}
+
 div {
   width: 100px;
   height: 100px;
   display: inline-block;
   margin: 20px;
   border: 1px solid black;
+}
+
+table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+img {
+  width: 250px;
+  height: auto;
 }
 
 .hide {
